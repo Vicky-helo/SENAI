@@ -30,6 +30,47 @@ header {
     align-items: center;
 }
 
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 0px;
+
+}
+
+.card {
+    width: 250px;
+    background-color: rgb(169, 157, 209);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.card-img {
+    width: 206px;
+    height: 97px;
+    background-color: rgb(32, 17, 117);
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.desconto {
+    background-color: rgb(128, 96, 241);
+    width: 40px;
+    text-align: center;
+    position: absolute;
+    right: 15px;
+    top: 14px;
+}
+
 footer {
     background-color: rgb(67, 50, 161);
     text-align: center;
