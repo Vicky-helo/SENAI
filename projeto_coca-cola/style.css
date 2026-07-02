@@ -115,7 +115,7 @@ body {
 
 .banner p {
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     width: 304px;
     text-align: left;
     margin: initial;
@@ -125,10 +125,10 @@ body {
     background-color: white;
     width: 360px;
     text-align: center;
-    padding: 10px 6opx;
+    padding: 10px 60px;
     color: black;
     font-weight: 700;
-    border-radius: 30x;
+    border-radius: 30px;
     text-decoration: none;
 }
 
@@ -139,9 +139,18 @@ body {
     justify-content: space-between;
 }
 
+.socials {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
 .socials a {
     width: 32px;
     height: 32px;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .insta {
