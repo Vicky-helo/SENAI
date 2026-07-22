@@ -1,8 +1,14 @@
-let valor = 250;
-if (valor > 500) {
-    console.log(`o valor é ${500*0.2}`)
-} else if (valor > 200) {
-    console.log(`o valor é ${200*0.1}`)
-} else if (valor > 100) {
-    console.log(`o valor é ${100*0.05}`)
-} else { console.log(`o valor é ${valor}`)}
+let valorCompra = 250
+let valorFinal
+
+if (valorCompra > 500) {
+  valorFinal = valorCompra * 0.8
+} else if (valorCompra > 200) {
+  valorFinal = valorCompra * 0.9
+} else if (valorCompra > 100) {
+  valorFinal = valorCompra * 0.95
+} else {
+  valorFinal = valorCompra
+}
+
+console.log(`Valor final: R$ ${valorFinal}`)
